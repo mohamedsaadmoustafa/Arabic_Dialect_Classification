@@ -12,7 +12,7 @@ To get dataset
 ### Data exploration & preprocessing
 
 
-
+![](/images/pie.png)
 ### Machine Learning Models Training
 
 
