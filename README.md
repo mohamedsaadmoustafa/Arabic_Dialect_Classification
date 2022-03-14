@@ -163,9 +163,23 @@ The next step is to divide the data set into training and validation data sets a
 
 [bert-large-uncased](https://huggingface.co/bert-large-uncased)
 
+Using huggingface pretrained model as base layer comes after an input layer
+and last layer is dense with softmax activation layer.
+
+Optimizer: Adam learning_rate 2e-5
+Loss: Categorical Cross entropy
+Accuracy: Categorical Accuracy
+    
+**callbacks**
+
+   - Model Check point: Callback to save the Keras model or model weights at some frequency.
+   - Learning Rate Scheduler:  Updated learning rate value from schedule function 
+   - Early Stopping: Stop training when a monitored metric has stopped improving.
+
 
 Score:-
    - BRET: 0.731
+
 
 ### deployment
 Use Flask and Plotly to visualize prediction probabilities for the input text.
