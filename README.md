@@ -171,6 +171,7 @@ Score:-
 Use Flask and Plotly to visualize prediction probabilities for the input text.
 
 ![](/deploy_flask_plotly/Final Look/image 1.png)
+
 ![](/deploy_flask_plotly/Final Look/image 2.png)
 
 
