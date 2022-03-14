@@ -163,8 +163,8 @@ The next step is to divide the data set into training and validation data sets a
 
 [bert-large-uncased](https://huggingface.co/bert-large-uncased)
 
-Using huggingface pretrained model as base layer comes after an input layer
-and last layer is dense with softmax activation layer.
+Using the huggingface pretrained model as base layer comes after an input layer
+And last layer is dense with the softmax activation layer.
 
 Optimizer: Adam learning_rate 2e-5
 Loss: Categorical Cross entropy
