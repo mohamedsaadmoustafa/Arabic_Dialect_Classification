@@ -160,6 +160,9 @@ For target classes, Use one-hot Encoder to encode categorical features as a one-
 
 The next step is to divide the data set into training and validation data sets at 80% and 20%.
 
+`BERT` can be used for a wide variety of language tasks, while only adding a small layer to the core model
+like classification tasks such as sentiment analysis are done similarly to Next Sentence classification, 
+by adding a classification layer on top of the Transformer output for the [CLS] token.
 
 [bert-large-uncased](https://huggingface.co/bert-large-uncased)
 
