@@ -183,9 +183,9 @@ Score:-
 ### deployment
 Use Flask and Plotly to visualize prediction probabilities for the input text.
 
-![]("/images/image1.png")
+![alt text]("/images/image1.png")
 
-![]("/images/image2.png")
+![alt text]("/images/image2.png")
 
 
 
