@@ -1,18 +1,14 @@
-## Arabic Dialect Classification
+## Classification of Arabic Dialects
 
 
 
 ### Introduction
 
-Arabic has several diverse dialects from across different regions of the Arab World. Although primarily spoken, written dialectal Arabic has been increasingly used on social media. Here we use collected tweets with 18 different Arabic dialects to train machine learning and deep learning models to classify these dialects.
+There are various different dialects of Arabic spoken in various Arab countries. Despite being mainly spoken, written dialectal Arabic is becoming more common on social media. Here, we train machine learning and deep learning models to identify 18 different Arabic dialects from collected tweets.
 
 
 
-### Data fetching 
-
-To get the dataset, we’re using the “id” column in dialect_dataset.csv to retrieve the texts by calling [this API](https://recruitment.aimtechnologies.co/ai-tasks) by a POST request. By creating a JSON file as a request body containing a list of strings, the list’s size must not exceed 1000. So the solution used to break the large into several requests (number of IDs // 1000 = 458 requests) plus one more request for the remainder (197 IDs).
-
-
+We are requesting the dataset via a POST request to [this API](https://recruitment.aimtechnologies.co/ai-tasks), using the "id" column in the dialect dataset.csv to extract the texts. The list of strings in the request body created as a JSON file cannot be greater than 1000. As a result, the solution divided the large request into numerous requests (number of IDs / 1000 = 458 requests), plus additional request for the leftover requests (197 IDs).
 
 
 ### Data exploration & preprocessing
